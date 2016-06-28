@@ -1,0 +1,15 @@
+<section>
+    <header>
+        <h1>Back to Heroes List</h1>
+        <p class="description">
+        Keeping track of Heroes list from angular tutorials
+        </p>
+    </header>
+    <h2>{{title}}</h2>
+    <nav>
+    <a [routerLink]="['Heroes']">Heroes</a>
+    <a [routerLink]="['Dashboard']">Dashboard</a>
+    </nav>
+    <router-outlet></router-outlet>
+</section>
+
